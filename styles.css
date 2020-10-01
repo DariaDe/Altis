@@ -5,13 +5,14 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 nav{
   display: flex;
   justify-content: space-between;
   background: black;
-  padding: 1.5em;
+  padding: 1.5em 2em;
 
 }
 
@@ -39,15 +40,33 @@ a{
 
 .intro{
   height:100vh;
+  width:100vw;
+
   margin-top: -8em;
   position: relative;
   z-index: -1;
 }
 
-.intro video{
-   width: 100%;
-  height: 100%;
+
+
+/* .intro video{
   object-fit: cover;
+  position:absolute;
+  width:auto;
+  height:auto;
+  min-width: 100%;
+  min-height: 100%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+
+} */
+.intro video{
+  object-fit: cover;
+  height:100%;
+  width:100%;
+
 }
 
 .intro h1{
@@ -144,5 +163,19 @@ h2{
 @keyframes pulse {
   to {
     opacity: 1;
+  }
+}
+
+@media (min-aspect-ratio 16/9){
+  .intro video{
+    width:100%;
+    height:auto;
+  }
+}
+
+@media (max-aspect-ratio 16/9){
+  .intro video{
+    width:auto;
+    height:100%;
   }
 }
