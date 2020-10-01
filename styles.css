@@ -45,6 +45,7 @@ a{
   margin-top: -8em;
   position: relative;
   z-index: -1;
+   overflow-x: hidden;
 }
 
 
