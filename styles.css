@@ -641,9 +641,7 @@ line-height: 1.5em;
   opacity: 0;
 }
 
-.letters-3{
-  width:50%;
-}
+
 
 i {
     opacity: 0;
@@ -1252,13 +1250,7 @@ footer{
 
 /* Seventh Page */
 
-@media screen and (max-width:845px) {
-  .letters-3{
-    width:100%;
-    margin-left: 2em;
-    margin-right: 2em;
-  }
-}
+
 @media screen and (max-width:750px) {
 
   .ml4{
