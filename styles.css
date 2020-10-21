@@ -586,6 +586,92 @@ h6{
   color: black;
 }
 
+.amir{
+  background: url("images/Amir2.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.mariaH{
+  background: url("images/MariaH.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.mariaP{
+  background: url("images/MariaP.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sasha{
+  background: url("images/Sasha.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mariaT{
+  background: url("images/MariaT.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dasha{
+  background: url("images/Dasha.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.petya{
+  background: url("images/Petya.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alina{
+  background: url("images/Alina.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alisa{
+  background: url("images/Alisa.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.polina{
+  background: url("images/Polina.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.karim{
+  background: url("images/Karim.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.leva{
+  background: url("images/Leva.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .flip-card-back {
   background-color: #F8F8F8;
   color: #11083C;
@@ -1245,6 +1331,19 @@ footer{
   .cards-grid{
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+}
+
+@media screen and (max-width: 453px) {
+  .athlete-h3{
+    font-size: 3.1em;
+  }
+
+  .flip-card{
+    width: 250px;
+    height: 358px;
+  }
+
 
 }
 
