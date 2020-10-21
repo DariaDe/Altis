@@ -954,6 +954,7 @@ footer{
 
 /* Coaches */
 
+
 @media screen and (max-width:1310px) {
   .team-h3{
     font-size: 3.3em;
@@ -1071,20 +1072,21 @@ footer{
     padding-top: 1em
   }
   h6{
-    font-size: 1.25em;
+    font-size: 1.2em;
+    line-height: 1.3;
   }
   .team-position{
-    font-size: .95em;
+    font-size: .9em;
     margin-top: .2em;
   }
 
   .team-p{
-    font-size: .85em;
+    font-size: 1.05em;
     margin-top: .8em;
   }
 
   .team-img{
-    height:8em;
+    height:9.5em;
     margin-top: 2em;
   }
 }
@@ -1096,12 +1098,12 @@ footer{
   }
 
   .team-p{
-    font-size: .75em;
+    font-size: 1em;
     margin-top: .8em;
   }
 
   .team-img{
-    height:8.5em;
+    height:9.5em;
     margin-top: 2em;
   }
 
@@ -1119,7 +1121,7 @@ footer{
   }
 
   .team-holder{
-    padding-top: 2em .6em 0;
+    padding: 2em .6em 0;
   }
 
   .team-member{
@@ -1183,17 +1185,17 @@ footer{
   }
   .team-p{
     font-size: .85em;
-  
+
   }
 }
 
 @media screen and (max-width: 313px) {
   .team-img{
-    height:7.5em;
+    height:8em;
   }
   .team-content-holder{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0.2;
+    padding-right: 0.2;
   }
 }
 
@@ -1206,17 +1208,17 @@ footer{
   }
 
   .team-img{
-    height:7.3em;
+    height:7.7em;
   }
 
   h6{
-    font-size: .9em;
+    font-size: 1.05em;
   }
   .team-position{
-    font-size: .65em;
+    font-size: .75em;
   }
   .team-p{
-    font-size: .7em;
+    font-size: .8em;
   }
 }
 
