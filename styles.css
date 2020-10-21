@@ -9,6 +9,7 @@ body{
   box-sizing: border-box;
   font-family: sans-serif;
   overflow-x: hidden;
+	 background:black;
 }
 
 
@@ -64,7 +65,7 @@ a{
   position: relative;
   z-index: -1;
   overflow-x:hidden;
-  background:black;
+ 
 }
 
 
