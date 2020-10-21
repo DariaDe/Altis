@@ -64,6 +64,7 @@ a{
   position: relative;
   z-index: -1;
   overflow-x:hidden;
+  background:black;
 }
 
 
@@ -869,9 +870,7 @@ footer{
     display:none;
   }
 	
-.intro{
-    z-index: 1;
-  }
+
 	
   .intro h1{
     top:42%;
@@ -884,9 +883,7 @@ footer{
     display:none;
   }
 	
-.intro{
-    z-index: 1;
-  }
+
 
   .intro h1{
     top:43%;
