@@ -1071,10 +1071,10 @@ footer{
     padding-top: 1em
   }
   h6{
-    font-size: 1.2em;
+    font-size: 1.25em;
   }
   .team-position{
-    font-size: .9em;
+    font-size: .95em;
     margin-top: .2em;
   }
 
@@ -1138,7 +1138,7 @@ footer{
     text-align: center;
   }
   .team-p{
-    font-size: .9em;
+    font-size: .95em;
     margin-top: .8em;
   }
 
@@ -1163,7 +1163,7 @@ footer{
 
 @media screen and (max-width:396px) {
   .team-h3{
-    font-size: 2.5em;
+    font-size: 2.8em;
   }
 
   .team-holder{
@@ -1175,15 +1175,15 @@ footer{
   }
 
   .team-img{
-    height:7.7em;
+    height:8.5em;
   }
 
   h6{
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .team-p{
-    font-size: .7em;
-    margin-top: .7em;
+    font-size: .85em;
+  
   }
 }
 
