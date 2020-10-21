@@ -870,7 +870,11 @@ footer{
   .nav-ul{
     display:none;
   }
-
+	
+.intro{
+    z-index: 0;
+  }
+	
   .intro h1{
     top:42%;
 
@@ -880,6 +884,10 @@ footer{
 @media screen and (min-width:501px) and (max-width: 700px) {
   .nav-ul{
     display:none;
+  }
+	
+.intro{
+    z-index: 0;
   }
 
   .intro h1{
