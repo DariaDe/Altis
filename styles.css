@@ -587,7 +587,7 @@ h6{
 }
 
 .amir{
-  background: url("images/Amir2.JPG");
+  background: url("images/Amir.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -595,7 +595,7 @@ h6{
 }
 
 .mariaH{
-  background: url("images/MariaH.JPG");
+  background: url("images/MashaH.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -603,75 +603,74 @@ h6{
 }
 
 .mariaP{
-  background: url("images/MariaP.JPG");
+  background: url("images/MashaP.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sasha{
-  background: url("images/Sasha.JPG");
+  background: url("images/Sasha.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .mariaT{
-  background: url("images/MariaT.JPG");
+  background: url("images/MashaT.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .dasha{
-  background: url("images/Dasha.JPG");
+  background: url("images/Dasha.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .petya{
-  background: url("images/Petya.JPG");
+  background: url("images/Petya.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .alina{
-  background: url("images/Alina.JPG");
+  background: url("images/Alina.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .alisa{
-  background: url("images/Alisa.JPG");
+  background: url("images/Alisa.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .polina{
-  background: url("images/Polina.JPG");
+  background: url("images/Polina.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .karim{
-  background: url("images/Karim.JPG");
+  background: url("images/Karim.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .leva{
-  background: url("images/Leva.JPG");
+  background: url("images/Leva.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .flip-card-back {
   background-color: #F8F8F8;
   color: #11083C;
