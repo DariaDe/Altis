@@ -161,7 +161,7 @@ const scene4 = new ScrollMagic.Scene({
 
 var appearAnimation3 = new TimelineMax()
 .from(".athlete-h3", 1 ,{opacity:0, y:50, ease:Power4.easeInOut})
-.from(".cards-grid", 1, {opacity:0, y:60,ease:Power4.easeInOut})
+// .from(".cards-grid", 1, {opacity:0, y:60,ease:Power4.easeInOut})
 
 const scene7 = new ScrollMagic.Scene({
   triggerElement:"#sixth-page",
