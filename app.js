@@ -122,9 +122,7 @@ const scene4 = new ScrollMagic.Scene({
   .from(" #tm2 .team-fio, #tm2 .team-position", 1 ,{opacity:0, x:50, ease: Power4.easeInOut})
   .from("#tm2 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
 
-//   .from("#tm3 img", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
-//   .from(" #tm3 .team-fio, #tm3 .team-position", 1 ,{opacity:0, x:-50, ease: Power4.easeInOut})
-//   .from("#tm3 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
+
 
 
 
@@ -138,41 +136,22 @@ const scene4 = new ScrollMagic.Scene({
   .setPin("#fourth-page")
   			.setTween(appearAnimation)
   			.addTo(controller2);
+if(window.innerWidth > 760){
+  var appearAnimation3 = new TimelineMax()
+  .from(".athlete-h3", 1 ,{opacity:0, y:50, ease:Power4.easeInOut})
+  .from(".cards-grid", 1, {opacity:0, y:60,ease:Power4.easeInOut})
 
-//   var appearAnimation2 = new TimelineMax()
+  const scene7 = new ScrollMagic.Scene({
+    triggerElement:"#sixth-page",
+    triggerHook:"onLeave",
+    duration:"100%",
 
-//   .from("#tm5 img", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
-//   .from(" #tm5 .team-fio, #tm5 .team-position", 1 ,{opacity:0, x:-50, ease: Power4.easeInOut})
-//   .from("#tm5 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
+  })
 
-//   .from("#tm6 img", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
-//   .from(" #tm6 .team-fio, #tm6 .team-position", 1 ,{opacity:0, x:50, ease: Power4.easeInOut})
-//   .from("#tm6 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
-
-//   const scene6 = new ScrollMagic.Scene({
-//     triggerElement: "#fifth-page",
-//     triggerHook:"onLeave",
-//     duration:"100%"
-//   })
-
-//   .setPin("#fifth-page")
-//         .setTween(appearAnimation2)
-//         .addTo(controller2);
-
-// var appearAnimation3 = new TimelineMax()
-// .from(".athlete-h3", 1 ,{opacity:0, y:50, ease:Power4.easeInOut})
-// .from(".cards-grid", 1, {opacity:0, y:60,ease:Power4.easeInOut})
-
-// const scene7 = new ScrollMagic.Scene({
-//   triggerElement:"#sixth-page",
-//   triggerHook:"onLeave",
-//   duration:"100%",
-
-// })
-
-// .setPin("#sixth-page")
-//       .setTween(appearAnimation3)
-//       .addTo(controller2);
+  .setPin("#sixth-page")
+        .setTween(appearAnimation3)
+        .addTo(controller2);
+}
 
 //       var ml4 = {};
 // ml4.opacityIn = [0,1];
