@@ -1254,7 +1254,41 @@ footer{
     font-size: 3.1em;
   }
 
- .flip-card{
+  /* .flip-card{
+    width: 250px;
+    height: 358px;
+  }
+
+  .flip-card img{
+    width: 250px;
+    height: 358px;
+  } */
+
+  .cards-grid{
+    padding: 2em 3em;
+  }
+}
+
+@media screen and (max-width:361px) {
+
+  .athlete-h3{
+    font-size: 2.7em;
+  }
+  .cards-grid{
+    padding: 2em 2em;
+  }
+}
+
+@media screen and (max-width:326px) {
+  .athlete-h3{
+    font-size: 2.35em;
+  }
+
+  .cards-grid{
+    padding: 1em 1em;
+  }
+
+  .flip-card{
     width: 250px;
     height: 358px;
   }
@@ -1263,7 +1297,25 @@ footer{
     width: 250px;
     height: 358px;
   }
+}
 
+@media screen and (max-width: 278px) {
+  .athlete-h3{
+    font-size: 2.2em;
+  }
+
+  .cards-grid{
+    padding: 1em .5em;
+  }
+  .flip-card{
+    width: 240px;
+    height: 348px;
+  }
+
+  .flip-card img{
+    width: 240px;
+    height: 348px;
+  }
 }
 
 /* Seventh Page */
