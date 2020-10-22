@@ -1303,6 +1303,16 @@ footer{
     width: 250px;
     height: 358px;
   }
+	
+  .flip-card-back p{
+    font-size: .8em;
+    line-height: 1.3em;
+  }
+
+  .flip-card-back h4{
+    font-size:1.2em;
+    margin-bottom:.5em;
+  }
 }
 
 @media screen and (max-width: 278px) {
