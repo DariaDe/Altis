@@ -1224,6 +1224,7 @@ footer{
 }
 
 
+
 /* Athletes */
 
 @media screen and (min-width:692px)and (max-width:753px) {
@@ -1266,6 +1267,7 @@ footer{
 
   .cards-grid{
     padding: 2em 3em;
+    padding-bottom: 6em;
   }
 }
 
@@ -1276,6 +1278,8 @@ footer{
   }
   .cards-grid{
     padding: 2em 2em;
+    padding-bottom: 6em;
+
   }
 }
 
@@ -1286,6 +1290,8 @@ footer{
 
   .cards-grid{
     padding: 1em 1em;
+    padding-bottom: 6em;
+
   }
 
   .flip-card{
@@ -1306,6 +1312,8 @@ footer{
 
   .cards-grid{
     padding: 1em .5em;
+    padding-bottom: 6em;
+
   }
   .flip-card{
     width: 240px;
