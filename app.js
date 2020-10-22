@@ -155,9 +155,9 @@ const scene4 = new ScrollMagic.Scene({
     duration:"100%"
   })
 
-//   .setPin("#fifth-page")
-//         .setTween(appearAnimation2)
-//         .addTo(controller2);
+  .setPin("#fifth-page")
+        .setTween(appearAnimation2)
+        .addTo(controller2);
 
 // var appearAnimation3 = new TimelineMax()
 // .from(".athlete-h3", 1 ,{opacity:0, y:50, ease:Power4.easeInOut})
