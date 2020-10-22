@@ -161,7 +161,7 @@ const scene4 = new ScrollMagic.Scene({
 
 var appearAnimation3 = new TimelineMax()
 .from(".athlete-h3", 1 ,{opacity:0, y:50, ease:Power4.easeInOut})
-// .from(".cards-grid", 1, {opacity:0, y:60,ease:Power4.easeInOut})
+.from(".cards-grid", 1, {opacity:0, y:60,ease:Power4.easeInOut})
 
 const scene7 = new ScrollMagic.Scene({
   triggerElement:"#sixth-page",
@@ -174,61 +174,61 @@ const scene7 = new ScrollMagic.Scene({
       .setTween(appearAnimation3)
       .addTo(controller2);
 
-      var ml4 = {};
-ml4.opacityIn = [0,1];
-ml4.scaleIn = [0.2, 1];
-ml4.scaleOut = 3;
-ml4.durationIn = 800;
-ml4.durationOut = 600;
-ml4.delay = 500;
+//       var ml4 = {};
+// ml4.opacityIn = [0,1];
+// ml4.scaleIn = [0.2, 1];
+// ml4.scaleOut = 3;
+// ml4.durationIn = 800;
+// ml4.durationOut = 600;
+// ml4.delay = 500;
 
-anime.timeline({loop: true})
-  .add({
-    targets: '.ml4 .letters-1',
-    opacity: ml4.opacityIn,
-    scale: ml4.scaleIn,
-    duration: ml4.durationIn
-  }).add({
-    targets: '.ml4 .letters-1',
-    opacity: 0,
-    scale: ml4.scaleOut,
-    duration: ml4.durationOut,
-    easing: "easeInExpo",
-    delay: ml4.delay
-  }).add({
-    targets: '.ml4 .letters-2',
-    opacity: ml4.opacityIn,
-    scale: ml4.scaleIn,
-    duration: ml4.durationIn
-  }).add({
-    targets: '.ml4 .letters-2',
-    opacity: 0,
-    scale: ml4.scaleOut,
-    duration: ml4.durationOut,
-    easing: "easeInExpo",
-    delay: ml4.delay
-  }).add({
-    targets: '.ml4 .letters-3',
-    opacity: ml4.opacityIn,
-    scale: ml4.scaleIn,
-    duration: ml4.durationIn
-  }).add({
-    targets: '.ml4 .letters-3',
-    opacity: 0,
-    scale: ml4.scaleOut,
-    duration: ml4.durationOut,
-    easing: "easeInExpo",
-    delay: ml4.delay
-  }).add({
-    targets: '.ml4 .letters-4',
-    opacity: ml4.opacityIn,
-    scale: ml4.scaleIn,
-    duration: ml4.durationIn
-  }).add({
-    targets: '.ml4 .letters-4',
-    opacity: 0,
-    scale: ml4.scaleOut,
-    duration: ml4.durationOut,
-    easing: "easeInExpo",
-    delay: ml4.delay
-  });
+// anime.timeline({loop: true})
+//   .add({
+//     targets: '.ml4 .letters-1',
+//     opacity: ml4.opacityIn,
+//     scale: ml4.scaleIn,
+//     duration: ml4.durationIn
+//   }).add({
+//     targets: '.ml4 .letters-1',
+//     opacity: 0,
+//     scale: ml4.scaleOut,
+//     duration: ml4.durationOut,
+//     easing: "easeInExpo",
+//     delay: ml4.delay
+//   }).add({
+//     targets: '.ml4 .letters-2',
+//     opacity: ml4.opacityIn,
+//     scale: ml4.scaleIn,
+//     duration: ml4.durationIn
+//   }).add({
+//     targets: '.ml4 .letters-2',
+//     opacity: 0,
+//     scale: ml4.scaleOut,
+//     duration: ml4.durationOut,
+//     easing: "easeInExpo",
+//     delay: ml4.delay
+//   }).add({
+//     targets: '.ml4 .letters-3',
+//     opacity: ml4.opacityIn,
+//     scale: ml4.scaleIn,
+//     duration: ml4.durationIn
+//   }).add({
+//     targets: '.ml4 .letters-3',
+//     opacity: 0,
+//     scale: ml4.scaleOut,
+//     duration: ml4.durationOut,
+//     easing: "easeInExpo",
+//     delay: ml4.delay
+//   }).add({
+//     targets: '.ml4 .letters-4',
+//     opacity: ml4.opacityIn,
+//     scale: ml4.scaleIn,
+//     duration: ml4.durationIn
+//   }).add({
+//     targets: '.ml4 .letters-4',
+//     opacity: 0,
+//     scale: ml4.scaleOut,
+//     duration: ml4.durationOut,
+//     easing: "easeInExpo",
+//     delay: ml4.delay
+//   });
