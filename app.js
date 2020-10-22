@@ -140,9 +140,6 @@ const scene4 = new ScrollMagic.Scene({
   			.addTo(controller2);
 
   var appearAnimation2 = new TimelineMax()
-  .from("#tm4 img", 1, {opacity:0,y:-50, ease: Power4.easeInOut})
-  .from(" #tm4 .team-fio, #tm4 .team-position", 1 ,{opacity:0, x:50, ease: Power4.easeInOut})
-  .from("#tm4 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
 
   .from("#tm5 img", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
   .from(" #tm5 .team-fio, #tm5 .team-position", 1 ,{opacity:0, x:-50, ease: Power4.easeInOut})
