@@ -462,6 +462,9 @@ font-family: 'Raleway', sans-serif;
   justify-content: space-between;
 
   margin-bottom: 1em;
+  background: white;
+  padding: 1em;
+  border-radius: 25px;
 }
 
 .last-member{
@@ -958,7 +961,6 @@ footer{
 
 /* Coaches */
 
-
 @media screen and (max-width:1310px) {
   .team-h3{
     font-size: 3.3em;
@@ -1021,9 +1023,7 @@ footer{
     height:10em;
   }
 
-  #tm4{
-    margin-top: 2.5em;
-  }
+
 }
 
 
@@ -1116,7 +1116,7 @@ footer{
   }
 }
 
-@media screen and (max-width:541px) {
+@media screen and (max-width:620px) {
 
   .team-h3{
     font-size: 2.9em;
@@ -1125,7 +1125,7 @@ footer{
   }
 
   .team-holder{
-    padding: 2em .6em 0;
+    padding: 2em 2em 0;
   }
 
   .team-member{
@@ -1134,7 +1134,7 @@ footer{
     margin-bottom: 2em;
   }
 
-   #tm2 img, #tm5 img{
+  #tm2 img, #tm5 img{
     grid-row:1;
   }
 
@@ -1142,6 +1142,7 @@ footer{
   #tm5 h6, #tm5 .team-position, #tm5 .team-p{
     text-align: center;
   }
+
   .team-p{
     font-size: .95em;
     margin-top: .8em;
@@ -1161,9 +1162,7 @@ footer{
     margin-top: 1em;
   }
 
-  #tm6 .team-p{
-    padding-bottom: 2em;
-  }
+
 }
 
 @media screen and (max-width:396px) {
@@ -1172,7 +1171,7 @@ footer{
   }
 
   .team-holder{
-    padding-top: 1.5em;
+    padding: 1.5em .7em 0;
   }
 
   .team-member{
@@ -1224,6 +1223,7 @@ footer{
     font-size: .8em;
   }
 }
+
 
 
 
