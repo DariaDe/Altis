@@ -1,5 +1,9 @@
 console.log(window.innerWidth);
 
+if(window.innerWidth<405){
+  document.getElementById("vid").src = "Belt-project2.mp4";
+}
+
 const intro = document.querySelector(".intro");
 const video = intro.querySelector("video");
 const text = intro.querySelector("h1");
