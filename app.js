@@ -1,6 +1,6 @@
 console.log(window.innerWidth);
 
-if(window.innerWidth<430){
+if(window.innerWidth<450){
   document.getElementById("vid").src = "Belt-project2.mp4";
 }
 
