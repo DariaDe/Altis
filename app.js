@@ -112,16 +112,54 @@ const scene4 = new ScrollMagic.Scene({
 
 
 
+ if(window.innerWidth > 1310){
   var appearAnimation = new TimelineMax()
   .from(".team-h3", 0.5, {opacity:0, y:100}, "=-.5")
-  .from("#tm1 img", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
+  .from("#tm1 img,#tm1.team-member", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
   .from(" #tm1 .team-fio, #tm1 .team-position", 1 ,{opacity:0, x:-50, ease: Power4.easeInOut})
   .from("#tm1 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
 
-  .from("#tm2 img", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
+  .from("#tm2 img,#tm2.team-member", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
   .from(" #tm2 .team-fio, #tm2 .team-position", 1 ,{opacity:0, x:50, ease: Power4.easeInOut})
   .from("#tm2 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
 
+  .from("#tm3 img,#tm3.team-member", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
+  .from(" #tm3 .team-fio, #tm3 .team-position", 1 ,{opacity:0, x:-50, ease: Power4.easeInOut})
+  .from("#tm3 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
+
+}
+
+if(window.innerWidth <=760){
+  var appearAnimation = new TimelineMax()
+  .from(".team-h3", 0.5, {opacity:0, y:100}, "=-.5")
+  .from("#tm1 img,#tm1.team-member", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
+  .from(" #tm1 .team-fio, #tm1 .team-position", 1 ,{opacity:0, x:-50, ease: Power4.easeInOut})
+  .from("#tm1 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
+
+  .from("#tm2 img,#tm2.team-member", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
+  .from(" #tm2 .team-fio, #tm2 .team-position", 1 ,{opacity:0, x:50, ease: Power4.easeInOut})
+  .from("#tm2 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
+}
+else if(window.innerWidth <= 1310){
+  var appearAnimation = new TimelineMax()
+  .from(".team-h3", 0.5, {opacity:0, y:100}, "=-.5")
+  .from("#tm1 img,#tm1.team-member", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
+  .from(" #tm1 .team-fio, #tm1 .team-position", 1 ,{opacity:0, x:-50, ease: Power4.easeInOut})
+  .from("#tm1 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
+
+  .from("#tm2 img,#tm2.team-member", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
+  .from(" #tm2 .team-fio, #tm2 .team-position", 1 ,{opacity:0, x:50, ease: Power4.easeInOut})
+  .from("#tm2 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
+
+  .from("#tm3 img,#tm3.team-member", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
+  .from(" #tm3 .team-fio, #tm3 .team-position", 1 ,{opacity:0, x:-50, ease: Power4.easeInOut})
+  .from("#tm3 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
+
+  .from("#tm5 img,#tm5.team-member", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
+  .from(" #tm5 .team-fio, #tm5 .team-position", 1 ,{opacity:0, x:-50, ease: Power4.easeInOut})
+  .from("#tm5 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
+
+}
 
 
 
