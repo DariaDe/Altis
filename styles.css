@@ -75,6 +75,10 @@ a{
 
 }
 
+video::-webkit-media-controls {
+    display:none !important;
+}
+
 .intro h1{
   position: absolute;
   top:50%;
@@ -508,8 +512,8 @@ h6{
 
 
 
-#tm4{
-  margin-top: 1.5em;
+#tm6{
+  margin-bottom: 4em;
 }
 
 /* Sixth Page */
@@ -1130,13 +1134,12 @@ footer{
     margin-bottom: 2em;
   }
 
-  #tm2 img, #tm4 img, #tm6 img{
+   #tm2 img, #tm5 img{
     grid-row:1;
   }
 
   #tm2 h6, #tm2 .team-position, #tm2 .team-p,
-  #tm4 h6, #tm4 .team-position, #tm4 .team-p,
-  #tm6 h6, #tm6 .team-position, #tm6 .team-p{
+  #tm5 h6, #tm5 .team-position, #tm5 .team-p{
     text-align: center;
   }
   .team-p{
@@ -1254,15 +1257,7 @@ footer{
     font-size: 3.1em;
   }
 
-  /* .flip-card{
-    width: 250px;
-    height: 358px;
-  }
 
-  .flip-card img{
-    width: 250px;
-    height: 358px;
-  } */
 
   .cards-grid{
     padding: 2em 3em;
