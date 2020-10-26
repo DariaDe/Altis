@@ -276,7 +276,6 @@ h2{
   width:100vw;
   position: relative;
  overflow: hidden;
-overflow-x:hidden;
 
 }
 
@@ -331,7 +330,7 @@ font-family: 'Raleway', sans-serif;
 
   margin: 0;
   margin-bottom: .2em;
-  width:40%;
+  text-align: left;
 }
 
 .feature-p{
@@ -360,6 +359,10 @@ font-family: 'Raleway', sans-serif;
 .feature-h3.light{
   text-align: right;
   width:100%;
+}
+
+.second-h3{
+  margin-top: 0em;
 }
 
 
@@ -959,6 +962,181 @@ footer{
     font-size: 2.4em;
     padding: 3.7em 1.2em 0;
   }
+
+}
+
+/* Features */
+@media screen and (max-width:1046px) {
+
+  .sticky-content-holder{
+    padding-left: 4.5em;
+    padding-top: 4.5em;
+  }
+  .sticky-content-holder.right{
+    margin-right: 4.5em;
+  }
+  .feature-h3{
+    font-size: 3.2em;
+  }
+  .feature-p{
+    font-size: 1.2em;
+  }
+
+  #f1,#f4,#f6,#f8{
+    width:33%;
+    top:30%;
+  }
+
+  #f2,#f3, #f5, #f7{
+    width:44%;
+    top:25%;
+  }
+}
+
+@media screen and (max-width:907px) {
+  .feature-h3{
+    font-size: 3.1em;
+  }
+  .feature-p{
+    font-size: 1em;
+  }
+  #f1,#f4,#f6,#f8{
+    width:35%;
+    top:37%;
+  }
+
+  #f2,#f3, #f5, #f7{
+    width:46%;
+    top:27%;
+  }
+}
+
+@media screen and (max-width:751px) {
+  .sticky-content-holder{
+    padding-left: 4em;
+    padding-top: 4em;
+  }
+  .sticky-content-holder.right{
+    margin-right: 4em;
+  }
+  #f1,#f4,#f6,#f8{
+    width:37%;
+    top:45%;
+  }
+
+  #f2,#f3, #f5, #f7{
+    width:48%;
+    top:35%;
+  }
+}
+
+@media screen and (max-width:613px) {
+  .sticky-content-holder{
+    padding-left: 3.5em;
+    padding-top: 3.5em;
+  }
+  .sticky-content-holder.right{
+    margin-right: 3.5em;
+  }
+  .feature-h3{
+    font-size: 2.9em;
+  }
+  .feature-p{
+    font-size: .9em;
+  }
+  #f1,#f4,#f6,#f8{
+    width:42%;
+    top:45%;
+  }
+
+  #f2,#f3, #f5, #f7{
+    width:54%;
+    top:35%;
+  }
+}
+@media screen and (max-width:513px) {
+  .sticky-content-holder{
+    padding-left: 2.5em;
+    padding-top: 2.5em;
+  }
+  .sticky-content-holder.right{
+    margin-right: 2.5em;
+  }
+
+  #f1,#f4,#f6,#f8{
+    width:52%;
+    top:49%;
+  }
+
+  #f2,#f3, #f5, #f7{
+    width:59%;
+    top:39%;
+  }
+
+  .feature-p{
+    width:65%;
+  }
+}
+
+@media screen and (max-width:444px) {
+  .sticky-content-holder{
+    padding-left: 2.2em;
+    padding-top: 2.2em;
+  }
+  .sticky-content-holder.right{
+    margin-right: 2.2em;
+  }
+
+  .feature-h3{
+    font-size: 2.5em;
+  }
+  .feature-p{
+    font-size: .87em;
+  }
+
+  #f1,#f4,#f6,#f8{
+    width:56%;
+    top:49%;
+  }
+
+  #f2,#f3, #f5, #f7{
+    width:63%;
+    top:39%;
+  }
+}
+
+@media screen and (max-width:392px) {
+  .feature-h3, .feature-h3.light{
+    text-align: center;
+  }
+
+  .feature-p, #f2-p, #f4-p{
+    text-align: center;
+    width:100%;
+  }
+
+  #l1{
+    width:65%;
+  }
+
+  .line{
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sticky-content-holder{
+    padding-left: 0em;
+    padding-top: 2em;
+  }
+  .sticky-content-holder.right{
+    margin-right: 0em;
+  }
+
+  .feature-h3{
+    font-size: 2.3em;
+  }
+
 
 }
 
