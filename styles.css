@@ -1081,11 +1081,12 @@ footer{
 @media screen and (max-width:444px) {
   .sticky-content-holder{
     padding-left: 2.2em;
-    padding-top: 3em;
+    padding-top: 5em;
   }
   .sticky-content-holder.right{
     margin-right: 2.2em;
   }
+
   .feature-h3{
     font-size: 2.5em;
   }
@@ -1105,31 +1106,14 @@ footer{
 }
 
 @media screen and (max-width:392px) {
-  .feature-h3, .feature-h3.light{
-    text-align: center;
-  }
 
-  .feature-p, #f2-p, #f4-p{
-    text-align: center;
-    width:100%;
-  }
-
-  #l1{
-    width:65%;
-  }
-
-  .line{
-    width:85%;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
   .sticky-content-holder{
-    padding-left: 0em;
+
     padding-top: 2em;
   }
   .sticky-content-holder.right{
-    margin-right: 0em;
+
   }
 
   .feature-h3{
