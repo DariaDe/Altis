@@ -1080,18 +1080,18 @@ footer{
 
 @media screen and (max-width:444px) {
   .sticky-content-holder{
-    padding-left: 2.2em;
-    padding-top: 2.2em;
+    padding-left: 3em;
+    padding-top: 3em;
   }
   .sticky-content-holder.right{
-    margin-right: 2.2em;
+    margin-right: 3em;
   }
 
   .feature-h3{
     font-size: 2.5em;
   }
   .feature-p{
-    font-size: .87em;
+    font-size: .97em;
   }
 
   #f1,#f4,#f6,#f8{
