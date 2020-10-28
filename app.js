@@ -1,12 +1,13 @@
 console.log(window.innerWidth);
-
 if(window.innerWidth<450){
-  document.getElementById("vid").src = "Belt-project2.mp4";
+  document.getElementById("vid").src = "Belt-project3.mp4";
 }
 
 const intro = document.querySelector(".intro");
 const video = intro.querySelector("video");
 const text = intro.querySelector("h1");
+
+
 
 var a;
 function Animation(){
@@ -30,10 +31,17 @@ function Animation(){
 $("body").fitVids();
 
 //ScrollMagic
-
+let dur1=8600;
 const controller = new ScrollMagic.Controller();
+if(window.innerWidth<450) {
+   dur1 = 4600;
+}
+else{
+   dur1 = 8600;
+}
+
 let scene = new ScrollMagic.Scene({
-  duration:8600, //видео 9 секунд => более оптимальная продолжительность анимации
+  duration:dur1, //видео 9 секунд => более оптимальная продолжительность анимации
   triggerElement: intro,
   triggerHook: 0
 })
@@ -42,10 +50,16 @@ let scene = new ScrollMagic.Scene({
 .addTo(controller);
 
 //Text Animation
+let dur2=3000;
 const textAnim = TweenMax.fromTo(text, 3, { opacity: 1 }, { opacity: 0 });
-
+if(window.innerWidth<450) {
+  let dur2 = 2000;
+}
+else{
+  let dur2 = 3000;
+}
 let scene2 = new ScrollMagic.Scene({
-  duration: 3000,
+  duration: dur2,
   triggerElement: intro,
   triggerHook: 0
 })
@@ -115,8 +129,7 @@ const scene4 = new ScrollMagic.Scene({
 			.addTo(controller2);
 
 
-
- if(window.innerWidth > 1310){
+if(window.innerWidth > 1310){
   var appearAnimation = new TimelineMax()
   .from(".team-h3", 0.5, {opacity:0, y:100}, "=-.5")
   .from("#tm1 img,#tm1.team-member", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
@@ -165,6 +178,9 @@ else if(window.innerWidth <= 1310){
 
 }
 
+  // .from("#tm6 img", 1, {opacity:0,y:-50, ease: Power4.easeInOut},"=-.5")
+  // .from(" #tm6 .team-fio, #tm6 .team-position", 1 ,{opacity:0, x:50, ease: Power4.easeInOut})
+  // .from("#tm6 .team-p", 0.5, {opacity:0, y:-30, ease: Power4.easeInOut })
 
 
 
@@ -178,6 +194,7 @@ else if(window.innerWidth <= 1310){
   .setPin("#fourth-page")
   			.setTween(appearAnimation)
   			.addTo(controller2);
+
 if(window.innerWidth > 760){
   var appearAnimation3 = new TimelineMax()
   .from(".athlete-h3", 1 ,{opacity:0, y:50, ease:Power4.easeInOut})
@@ -194,6 +211,8 @@ if(window.innerWidth > 760){
         .setTween(appearAnimation3)
         .addTo(controller2);
 }
+
+
 
       var ml4 = {};
 ml4.opacityIn = [0,1];
